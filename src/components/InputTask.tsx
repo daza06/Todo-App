@@ -5,6 +5,7 @@ export interface Task {
   name: string;
   description: string;
 }
+
 interface InputTaskProps {
   onAddTask: (task: { name: string; description: string }) => void;
 }
